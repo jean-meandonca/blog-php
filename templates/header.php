@@ -1,4 +1,5 @@
 <?php
+ include_once("helpers/url.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,5 +14,15 @@
 </head>
 <body>
     <header>
-        Cabeçalho header
+        <a href="<?= $BASE_URL ?>" id="logo">
+            <img src="<?= $BASE_URL?>img/logo.svg" alt="">
+        </a>
+        <nav>
+            <ul id="navbar">
+                <li><a href="<?= $BASE_URL?>">Home</a></li>
+                <li><a href="#">Categorias</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="<?= $BASE_URL?>contato.php">Contact</a></li>
+            </ul>
+        </nav>
     </header>

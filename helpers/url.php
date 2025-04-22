@@ -1,3 +1,4 @@
 <?php
+$BASE_URL = "http://" . $_SERVER['SERVER_NAME'] . ":8888/blog-php/";
 
-    $BASE_URL = "http://" . $_SERVER['SERVER_NAME'] .dirname($_SERVER['REQUEST_URI']. '?') . '/';
+
