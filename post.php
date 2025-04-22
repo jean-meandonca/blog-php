@@ -26,8 +26,7 @@
             Quidem reprehenderit sint, tempore id facilis distinctio aperiam? Aperiam minima tempora odio molestias quo suscipit, nulla voluptatem, temporibus blanditiis quisquam minus odit unde illum, quibusdam dolorem a! Natus, fuga minima?
             Consectetur sunt aliquam architecto repudiandae perferendis veniam modi repellat. Assumenda accusamus quidem laborum quisquam. Explicabo deleniti aut dolorum, nemo quidem unde possimus omnis quaerat est beatae, quia illo modi blanditiis!</p>
         </div>
-    </main>
-    <aside id="nav-container">
+        <aside id="nav-container">
         <h3 id="tags-title">Tags</h3>
         <ul id="tag-list">
             <?php foreach($currentPost['tags'] as $tag): ?>
@@ -36,10 +35,12 @@
         </ul>
         <h3 id="categories-title">Categorias</h3>
         <ul id="categories-list">
-            <?php foreach($categories['tags'] as $category): ?>
+            <?php foreach($categories as $category): ?>
                 <li><a href="#"><?= $category?></a></li>
             <?php endforeach; ?>  
         </ul>
     </aside>
+    </main>
+    
 <?php include_once("templates/footer.php");
 ?>
