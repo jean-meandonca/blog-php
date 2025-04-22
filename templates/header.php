@@ -19,10 +19,10 @@
         </a>
         <nav>
             <ul id="navbar">
-                <li><a href="<?= $BASE_URL?>">Home</a></li>
-                <li><a href="#">Categorias</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="<?= $BASE_URL?>contato.php">Contact</a></li>
+                <li><a href="<?= $BASE_URL?>" class="nav-link">Home</a></li>
+                <li><a href="#" class="nav-link">Categorias</a></li>
+                <li><a href="#" class="nav-link">Sobre</a></li>
+                <li><a href="<?= $BASE_URL?>contato.php" class="nav-link">Contact</a></li>
             </ul>
         </nav>
     </header>
